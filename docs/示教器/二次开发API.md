@@ -1,12 +1,17 @@
-# 二次开发API
+---
+title: 二次开发 API
+description: 示教器二次开发静态库接口说明，包含 nextp.h、json/json.h、digitallineedit.h、lineeditwidget.h 头文件接口及 Demo 说明。
+---
 
-# 二次开发静态库简介
+# 二次开发 API
 
-## 功能介绍​
+## 二次开发静态库简介
+
+### 功能介绍
 
 提供完整的示教器功能，支持添加用户自定义界面，支持特定字段的通信与控制系统通信。
 
-## 静态库目录结构​
+### 静态库目录结构
 
 ![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/DX-B0ZBGNk7JR05QYtvGdbL2E5PqU_1kGHpHsQJce6c.png)
 
@@ -16,9 +21,9 @@ Include 文件夹中为头文件；
 
 Library 文件夹中为静态库文件包括 linux 平台和 ARM 平台的库文件（使用ARM 平台交叉编译的程序只适用于纳博特公司的 T30 示教器使用）；
 
-## 静态库结构说明​
+### 静态库结构说明
 
-1.nextp.h 头文件接口说明：
+#### 1.nextp.h 头文件接口说明：
 
 ```cpp
 //创建 Nextp 类对象
@@ -60,7 +65,8 @@ void hideTechnologyToolbuttons();
     ReceivedFifthUserCommand = 0x920e,
 };
 ```
-2.json/json.h 头文件提供 JSON 数据格式的组装和解析
+
+#### 2.json/json.h 头文件提供 JSON 数据格式的组装和解析
 
 组装 json 数据示例:
 
@@ -72,6 +78,7 @@ root["booldata"] =true;
 root["data"] = 1.1;
 root["name"] ="nihao";
 ```
+
 解析 Json 数据示例
 
 ```cpp
@@ -87,7 +94,8 @@ if(reader.parse(jsonData.toStdString(), root))
     Std::string name = root["name "].asString();
 }
 ```
-3.digitallineedit.h 提供数字输入框
+
+#### 3.digitallineedit.h 提供数字输入框
 
 支持将 QLineEdit 控件提升为数字输入框
 
@@ -103,7 +111,7 @@ if(reader.parse(jsonData.toStdString(), root))
 
 ![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/ocxeQB1RJNdJlNixMv6-vcPkxcBkqqjEbpOtUypx9_w.png)
 
-4.lineeditwidget.h 提供数字和字符输入框 支持将 QLineEdit 控件提升为数字与字符输入框 提升方法：右键选择一个 QLineEdit 控 件 --->Promote to--->lineEditWidget
+#### 4.lineeditwidget.h 提供数字和字符输入框 支持将 QLineEdit 控件提升为数字与字符输入框 提升方法：右键选择一个 QLineEdit 控 件 --->Promote to--->lineEditWidget
 
 ![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/F4CeLh-nfbm4Dq5GrJsJqe0bQAiresr-SSNX2dhXw9Y.png)
 
@@ -115,7 +123,7 @@ if(reader.parse(jsonData.toStdString(), root))
 
 ![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/DCbpUBHz7p1nV0FGOwpT1gLmeSGTpN_WstUAobrqT-0.png)
 
-## Demo 说明​
+## Demo 说明
 
 ![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/IyPfo6FjXxG66IggoQ6O-zjuYETFpNtHxQbSFaG69HM.png)
 
