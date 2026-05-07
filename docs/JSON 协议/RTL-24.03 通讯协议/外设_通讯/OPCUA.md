@@ -1,25 +1,24 @@
 # OPCUA
 
-- 说明
-- 上位机设置OPCUA参数
+## 上位机设置OPCUA参数
+
 **命令字：** `0x7350`
-- "client":
-- 客户端参数
-- "enable":false
-- 连接使能；bool类型
-- "ip":"192.168.1.240"
-- 服务器IP地址；string类型
-- "port":49400
-- 端口号；int类型，范围[0,65535]
-- "resource":"ProsysServer"
-- 服务器名称；string类型
-- "server":
-- 服务器参数
-- "enable":false
-- 连接使能；bool类型
-- "ip":"192.168.0.229"
-- 控制器用作服务器时的IP地址；string类型
-- "port":4840
+
+### 参数说明
+
+| 字段 | 类型 | 描述 |
+|------|------|------|
+| client | object | 客户端参数 |
+| client.enable | bool | 连接使能 |
+| client.ip | string | 服务器IP地址 |
+| client.port | int | 端口号，范围[0,65535] |
+| client.resource | string | 服务器名称 |
+| server | object | 服务器参数 |
+| server.enable | bool | 连接使能 |
+| server.ip | string | 控制器用作服务器时的IP地址 |
+| server.port | int | 端口号，范围[0,65535] |
+
+### 请求示例
 
 ```json
 {
@@ -38,32 +37,41 @@
   }
 }
 ```
-- 端口号；int类型，范围[0,65535]
-- 上位机查询OPCUA参数
+
+---
+
+## 上位机查询OPCUA参数
+
+**命令字：** `0x7351`
+
+### 请求示例
 
 ```json
 {}
 ```
-**命令字：** `0x7351`
-- 控制器回复上位机OPCUA参数
+
+---
+
+## 控制器回复上位机OPCUA参数
+
 **命令字：** `0x7352`
-- "client":
-- 客户端参数
-- "enable":false
-- 连接使能；bool类型
-- "ip":"192.168.1.240"
-- 服务器IP地址；string类型
-- "port":49400
-- 端口号；int类型，范围[0,65535]
-- "resource":"ProsysServer"
-- 服务器名称；string类型
-- "server":
-- 服务器参数
-- "enable":false
-- 连接使能；bool类型
-- "ip":"192.168.0.229"
-- 控制器用作服务器时的IP地址；string类型
-- "port":4840
+
+### 参数说明
+
+| 字段 | 类型 | 描述 |
+|------|------|------|
+| client | object | 客户端参数 |
+| client.enable | bool | 连接使能 |
+| client.ip | string | 服务器IP地址 |
+| client.port | int | 端口号，范围[0,65535] |
+| client.resource | string | 服务器名称 |
+| server | object | 服务器参数 |
+| server.enable | bool | 连接使能 |
+| server.ip | string | 控制器用作服务器时的IP地址 |
+| server.port | int | 端口号，范围[0,65535] |
+
+### 响应示例
+
 ```json
 {
   "client":
@@ -80,7 +88,4 @@
     "port":4840
   }
 }
-```
-- 端口号；int类型，范围[0,65535]
-
 ```
