@@ -90,23 +90,23 @@
 
 2. 选择 **汉语**。
 
-![](assets/ros-51b.png)
+![](assets/ros-51.png)
 
 3. 选择 **正常安装**，**安装 Ubuntu 时下载更新**，点击 **继续**。
 
-![](assets/ros-52b.png)
+![](assets/ros-52.png)
 
 4. 选择 **清除整个磁盘并安装 Ubuntu**，出现提醒选择 **继续**，最后点击 **现在安装**。
 
-![](assets/ros-53b.png)
+![](assets/ros-53.png)
 
-![](assets/ros-54b.png)
+![](assets/ros-54.png)
 
 5. 自己设定好用户名以及密码，地区可以随意填，等待 Ubuntu 自己安装即可。
 
-![](assets/ros-55b.png)
+![](assets/ros-55.png)
 
-![](assets/ros-56b.png)
+![](assets/ros-56.png)
 
 ## 4. 安装 VMware Tools
 
@@ -116,15 +116,15 @@
 
 1. 点击上方 **虚拟机**，点击 **安装 VMware Tools**。
 
-![](assets/ros-57b.png)
+![](assets/ros-57.png)
 
 下载完成如下：
 
-![](assets/ros-58b.png)
+![](assets/ros-58.png)
 
 2. 在文件—VMware Tools 中找到这个文件夹，把文件夹移入主目录。
 
-![](assets/ros-59b.png)
+![](assets/ros-59.png)
 
 3. 在主目录中点击右键，点击 **在终端打开**，运行以下命令：
 
@@ -134,7 +134,7 @@ tar -zxvf VMwareTools-xxx.tar.gz
 
 运行后即可发现文件夹已解压：
 
-![](assets/ros-60b.png)
+![](assets/ros-60.png)
 
 4. 运行以下两条命令：
 
