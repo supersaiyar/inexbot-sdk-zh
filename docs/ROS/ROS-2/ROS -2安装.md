@@ -12,7 +12,7 @@ lsb_release -a
 
 Ubuntu 22.04 对应 ROS 2 Humble 版本。Foxy 之后的版本才开始支持 Ubuntu 22.04，更详细的版本对应关系可参考 ROS 官方文档。
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/Pyt99CAr/resources/tuJFQVJcgkmSYMZPARGAyPzuujxQHHrtpCIfXJk_Pcg.png)
+![](assets/ros2-14.png)
 
 ## 方法一：手动安装
 
@@ -91,7 +91,7 @@ ros2 run demo_nodes_cpp talker
 
 若正常，将显示以下信息：
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/Pyt99CAr/resources/rIF2v7CeW-ZM3_x-H6vEBrUa-lQAguO5Ukdv4_j2JoY.png)
+![](assets/ros2-15.png)
 
 终端 2，启动订阅者：
 
@@ -101,7 +101,7 @@ ros2 run demo_nodes_py listener
 
 正常将显示以下信息：
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/Pyt99CAr/resources/nuagFKLwKLLyw3Iupu506tlmJO11-nbxb2HHSHIdd2k.png)
+![](assets/ros2-16.png)
 
 若两个终端中均显示 `Hello World` 字符串，说明通信正常。
 
@@ -121,7 +121,7 @@ ros2 run turtlesim turtle_teleop_key
 
 效果如下图所示：
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/Pyt99CAr/resources/8yORjE7UUWq0I4JpV12k8vn8Dpofw6yLPRsFX1Q9j-A.png)
+![](assets/ros2-17.png)
 
 ### 4. 配置 rosdep
 
@@ -174,4 +174,4 @@ rosdep update
 wget http://fishros.com/install -O fishros && . fishros
 ```
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/Pyt99CAr/resources/hSc6jhXvy6T39KCzMmYJXZHsPfa_7bxWG-Sh1xUAbsg.png)
+![](assets/ros2-18.png)

@@ -32,4 +32,4 @@ ros2 run moveit_setup_assistant moveit_setup_assistant
 
 弹出如下界面表示安装成功。MoveIt Setup Assistant 的使用流程在 ROS 2 与 ROS 1 中基本相同，此处不再展开。
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/HPxrD8XW/resources/gUAREct65-_izqLJ8wlTOjsSHCrhs7HPhXYZAe1l4-0.png)
+![](assets/ros2-19.png)

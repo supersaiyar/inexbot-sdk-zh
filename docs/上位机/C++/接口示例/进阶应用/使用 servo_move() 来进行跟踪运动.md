@@ -22,7 +22,7 @@ struct ServoMovePara {
 ```
 ## 使用前提：需要在示教器上运行外部点的指令
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/BX7afzVa/resources/sootAadgUidGZfZvWsfJJgc2uycrapbEkwJx9TbOIGw.png)
+![](assets/cpp-06.png)
 
 启动运行这个作业文件
 

@@ -59,7 +59,7 @@ demo下载
 
 ## hal_sdk使用流程图
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/JJaMK1fW/resources/P8fRTpJcnN8uOxTOsi1O9_L23sRTviO1R2tJu_9wRNM.png)
+![](assets/hal-12.png)
 
 ## 使用示例
 
@@ -416,7 +416,7 @@ public:
 
 ### AnalogIO类使用流程图
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/JJaMK1fW/resources/BntpkhXJvjH_eoi31QcYTpoTVn7Mq-uVi0kg945D0SE.png)
+![](assets/hal-13.png)
 
 ### 成员函数功能详解
 
@@ -535,7 +535,7 @@ public:
 
 ### CANDEvice类使用流程图
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/JJaMK1fW/resources/9f5zPr5R2cx-V8aGJVyHkn1IOa1Xgxd1OYqOkg357IY.png)
+![](assets/hal-14.png)
 
 ### 成员函数功能详解
 
@@ -685,7 +685,7 @@ public:
 
 ### DigitalIO类使用流程图
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/JJaMK1fW/resources/s0FdDdYiOxFiGtkdtd9lngfdoz_T644bNwBxQ9hvFeg.png)
+![](assets/hal-15.png)
 
 ### 成员函数功能详解
 
@@ -785,7 +785,7 @@ public:
 
 ### EncoderDevice类使用流程图
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/JJaMK1fW/resources/mmePVvSocEPODsjXGVb21BjOXNsJrq9X9mi9YpVE5yM.png)
+![](assets/hal-16.png)
 
 ### 成员函数功能详解
 
@@ -869,7 +869,7 @@ public:
 
 ### PwmDevice类使用流程图
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/JJaMK1fW/resources/J0Msrc1H5vTgEL2ai_d_cwSP-KW4Da6AzjRqYMnw20s.png)
+![](assets/hal-17.png)
 
 ### 成员函数功能详解
 
@@ -961,7 +961,7 @@ public:
 ```
 ### SerialDevice类使用流程图
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/JJaMK1fW/resources/3k15kTnJEJ6QzkZA0dhonmToC2qojRMCRDWt3SK9Z0Q.png)
+![](assets/hal-18.png)
 
 ### 成员函数功能详解
 
@@ -1072,7 +1072,7 @@ public:
 
 ### UpsDevice类使用流程图
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/JJaMK1fW/resources/1OJab2RD0tCWt-V-8HcaKDdVDubsDSN-5Jm4bZFgYuI.png)
+![](assets/hal-19.png)
 
 ### 成员函数功能详解
 

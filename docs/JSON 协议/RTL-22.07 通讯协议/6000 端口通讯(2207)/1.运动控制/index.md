@@ -2394,7 +2394,7 @@ data: null
 
 ### 工具手标定
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/NPGbVhwt/resources/eF_opx3cpUGUoKsKvVqA5HexmN1GfqzYmkZYYRhIpmM.png)
+![](assets/json-01.png)
 
 #### 0x3801 TOOLCALIBRATION_SET
 
@@ -2436,7 +2436,7 @@ data: null
 }
 ```
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/NPGbVhwt/resources/8tU7WSAFAaJUgD7Lhtm0fLfL5cBpo9WWih9ir9OFqfs.png)
+![](assets/json-02.png)
 
 ---
 
@@ -2544,7 +2544,7 @@ data: null
 }
 ```
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/NPGbVhwt/resources/ssMJkIOraPs4C-9WEgSzCwfLxwDXb5cSXeNBAn-gPw8.png)
+![](assets/json-03.png)
 
 ---
 
@@ -2728,7 +2728,7 @@ data: null
 }
 ```
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/NPGbVhwt/resources/QJtVpVh17aXZI5maJbI6q6exUUbcSTjdSDyR2dGNNNs.png)
+![](assets/json-04.png)
 
 ---
 
@@ -2836,7 +2836,7 @@ data: null
 }
 ```
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/NPGbVhwt/resources/Zhx5jB_97VLF7j85X4m7A80imar3veYvaEZYdu6j9Ss.png)
+![](assets/json-05.png)
 
 ---
 

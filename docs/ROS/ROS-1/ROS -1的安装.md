@@ -79,9 +79,9 @@ rosdep update
 
 如果一切顺利，rosdep 初始化与更新的打印结果如下：
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/2Zt4ARWS/resources/nl9X6UaUezcOgd0oX6mfypC4gKdM5jLISU1-1UcZ9tM.png)
+![](assets/ros-20.png)
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/2Zt4ARWS/resources/QOaojuwUx40ZElCWBWeT-15sRehIrXBuRncHW1MHVNM.png)
+![](assets/ros-21.png)
 
 ### rosdep 初始化失败的解决
 
@@ -217,4 +217,4 @@ rosrun turtlesim turtle_teleop_key
 
 将光标悬停在这个终端中，然后使用 ↑、↓、←、→ 键来控制小海龟移动：
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/2Zt4ARWS/resources/2zyngnK_Va6EtgP7F5uwSVkJF5oDqW0A_rJxU5adKmk.png)
+![](assets/ros-22.png)

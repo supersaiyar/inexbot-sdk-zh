@@ -106,7 +106,7 @@ void NRC_Jobrun_MoveLinearSync(int robotNum, const NRC_Position & pos, const NRC
 ```
 ## 2，自定义指令函数使用示例
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/4m3bAa2G/resources/JH2Bex5efV2bWSL_Tg-IjqyL-QqVNE5EGy58czSEWqw.svg)
+![](assets/zd-01.svg)
 ```cpp
 #include "nrcAPI.h"
 #include "nrcAPI_advance.h"
@@ -169,10 +169,10 @@ int main() {
 }
 ```
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/4m3bAa2G/resources/pTMHASGiJvsY-EWRrKEQwM7HLVxoAhEWhyB0l-59VyY.svg)
+![](assets/zd-02.svg)
 
 ## 3，运行自定义指令
 
 自定义指令只有二次开发示教器才有，用户可在相关下载，下载对应的示教器二次开发
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/4m3bAa2G/resources/InrfqkqP7lF4h3rfxPHBz_anwm63VnitPTc-UPCd1Jg.svg)
+![](assets/zd-03.svg)

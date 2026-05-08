@@ -13,7 +13,7 @@ description: 示教器二次开发静态库接口说明，包含 nextp.h、json/
 
 ### 静态库目录结构
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/DX-B0ZBGNk7JR05QYtvGdbL2E5PqU_1kGHpHsQJce6c.png)
+![](assets/api-01.png)
 
 nextpLib 为总文件夹；
 
@@ -101,37 +101,37 @@ if(reader.parse(jsonData.toStdString(), root))
 
 提升方法：右键选择一个 QLineEdit 控件 --->Promote to--->DigitalLineEdit
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/x_iLG9O2v7nsT1hXjGO5iTJ8uKDHpCxhPvK8weCe5so.png)
+![](assets/api-02.png)
 
 右侧树形结构中可以看到该控件 Classs 属性变为 DigitLineEdit
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/0qjE2SrjGJnL1N-QJOQ8mpH-GNb2pRWvHca2pcaNy_o.png)
+![](assets/api-03.png)
 
 程序运行后控件效果，单击控件会弹出数字键盘：
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/ocxeQB1RJNdJlNixMv6-vcPkxcBkqqjEbpOtUypx9_w.png)
+![](assets/api-04.png)
 
 #### 4.lineeditwidget.h 提供数字和字符输入框 支持将 QLineEdit 控件提升为数字与字符输入框 提升方法：右键选择一个 QLineEdit 控 件 --->Promote to--->lineEditWidget
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/F4CeLh-nfbm4Dq5GrJsJqe0bQAiresr-SSNX2dhXw9Y.png)
+![](assets/api-05.png)
 
 右侧树形结构中可以看到该控件 Classs 属性变为 lineEditWidget
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/wYrO92SBQDJbLfLn5a9XmLCMGQ3dibaQh7ZYV9Sde9A.png)
+![](assets/api-06.png)
 
 程序运行后控件效果，单击控件会弹出数字与字母键盘：
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/DCbpUBHz7p1nV0FGOwpT1gLmeSGTpN_WstUAobrqT-0.png)
+![](assets/api-07.png)
 
 ## Demo 说明
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/IyPfo6FjXxG66IggoQ6O-zjuYETFpNtHxQbSFaG69HM.png)
+![](assets/api-08.png)
 
 - Demo 结构图 demo 文件夹名称：NextpMode
 
 2.1 settingparawidget.h settingparawidget.cpp settingparawidget.ui 三个文件为用户自定义窗体
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/-ilHiUUna2_MVUTA1XOzepe9Qmx7e9W5gVboTo9TxWc.png)
+![](assets/api-09.png)
 
 2.2 widgetmanager.h widgetmanager.cpp 为管理类连接用户自定义窗体和静态库
 
@@ -141,26 +141,26 @@ if(reader.parse(jsonData.toStdString(), root))
 
 运 Demo 程序点击【操作员】> 选择管理员>输入密码 123456 登录
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/65aQEZy-YlEjii16oQVPaBPeTAvHSPKqpZuF2_rtUAs.png)
+![](assets/api-10.png)
 
 点击左侧【工艺】按钮> 用户 进入自定义窗体
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/Y-Nbu6aQGeHigJQOcYWtcsaCR_fUIZCj62sg1EaBI2E.png)
+![](assets/api-11.png)
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/MFbKg1zce4ByIFo3VW_Zm3H7DQW7WCncPdClsJef3A0.png)
+![](assets/api-12.png)
 
 点击修改按钮 可以修改参数 点击保存将发送参数到控制器
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/OW-R2bKCwVA_ECqRbfJFrVetBsN4w9KyqFBoWrnLO-Y.png)
+![](assets/api-13.png)
 
 QtCreator 控制台会打印发送到控制器的数据
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/Suv5LbBlqJnN8v9LgL-j3aTofZLCTrzniBbS2hfOe54.png)
+![](assets/api-14.png)
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/sS7i4QbrP37ERCeyF3MU0Qzzxpqo-JSJdyYz4AFiZSw.png)
+![](assets/api-15.png)
 
 如果调用函数 void hideTechnologyToolbuttons();会隐藏除工艺在主界 面上自定义按钮以外的其他工艺按钮
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/KvzaX2Lp/resources/h03Ue_KIDgLDjg-HUBUVsh4WoNQCAchl5hXTCYmFUpA.png)
+![](assets/api-16.png)
 
 - Demo 文件类说明

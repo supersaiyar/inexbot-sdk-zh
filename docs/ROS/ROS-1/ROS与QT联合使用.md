@@ -24,19 +24,19 @@ catkin_create_pkg Qt_test roscpp std_msgs
 
 首先创建一个 Qt 工程，构成文件如下，其中 `libs` 是库文件 `.so` 及其包含的头文件 `.h`：
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/XrABsGr3/resources/PnQEInHQajbZ9mIEWGv6JOADbBRQxXsxSd0cfQzzvL0.png)
+![](assets/ros-23.png)
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/XrABsGr3/resources/V2eCsDpU6VlpuMRv3JeIYXDknkGrlyGpQFWLuYQ5nIE.png)
+![](assets/ros-24.png)
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/XrABsGr3/resources/RRjsfoTvmnsKFzDzBmlidBqeiHJfH-We2kY92PkmA3E.png)
+![](assets/ros-25.png)
 
 Qt 工程需要略微调整结构才能作为 ROS 功能包使用，如下所示：
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/XrABsGr3/resources/mWQ-tJFUUc5G3Su9XLjVYOlbFoJ9worBVrdNLTwOgj0.png)
+![](assets/ros-26.png)
 
 其中，将原工程中的 `main.cpp`、`mainwindow.cpp`、`Qt_test.pro` 文件放到 `src` 中，`mainwindow.h` 放到 `include/Qt_test` 中：
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/XrABsGr3/resources/GZopou4UiwLhe_MRXIpmsHGTggb0ktDkeHMaLaKbTCY.png)
+![](assets/ros-27.png)
 
 ## 4. 修改 CMakeLists.txt
 
@@ -142,9 +142,9 @@ catkin_make
 
 如果编译成功，应该能在 `~/inexbot/devel/lib/Qt_test/` 目录下找到生成的可执行文件 `Qt_test`：
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/XrABsGr3/resources/p869hcR-Nx3xl0kMTMhQUSvQeQ8QrQqwz8u9JND39rM.png)
+![](assets/ros-28.png)
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/XrABsGr3/resources/gZCWmtrhS5OgiGZ9rjgKqkCl_PFMupGYmEaTYLs8rAg.png)
+![](assets/ros-29.png)
 
 ## 6. 运行
 
@@ -157,7 +157,7 @@ source ~/inexbot/devel/setup.bash
 rosrun Qt_test Qt_test
 ```
 
-![](https://ones.inexbot.com/wiki/api/wiki/external-editor/RnqpQ1Yp/XrABsGr3/resources/Z-dw7ctDRLuaPsp9_1Y2Z_dy0f59QosZBW8MahwHHwU.png)
+![](assets/ros-30.png)
 
 ## 常见问题与提示
 
