@@ -149,7 +149,8 @@
 ---
 
 ## 详细接口文档
-
+| 函数 | 说明 |
+|------|------|
 | NRC_CreateJobfile | 新建作业文件。 |
 | NRC_OpenJobfile | 打开作业文件。 |
 | NRC_DeleteJobfile | 删除作业文件。 |
