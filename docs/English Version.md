@@ -1,3 +1,0 @@
-# English Version
-
-English Version
