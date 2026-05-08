@@ -90,13 +90,13 @@ function chineseTokenizer(text: string): string[] {
 }
 
 export default defineConfig({
-  title: "纳博特科技知识库",
-  description: "纳博特科技官方知识库",
+  title: "纳博特科技开放平台",
+  description: "纳博特科技官方SDK文档",
   srcDir: "./docs",
   ignoreDeadLinks: true,
   outDir: "./dist",
   sitemap: {
-    hostname: 'https://doc.inexbot.com'
+    hostname: 'https://open.inexbot.com'
   },
   themeConfig: {
     sidebar: await buildSidebar(docsDir),
